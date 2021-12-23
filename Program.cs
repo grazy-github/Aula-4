@@ -20,8 +20,10 @@ namespace Variaveis
             int idade;
             idade = 19;
             Console.WriteLine("\n\nQual é sua idade? " + "\n");
-            Console.WriteLine("Minha idade é {0} ", idade + "\n\n");
-
+            Console.WriteLine("\n\nQual é sua idade? " + "\n");
+            Console.WriteLine(
+                "Minha idade é {0} ", idade + "\n\n" 
+                );
             Console.ReadLine();
         }
     }
